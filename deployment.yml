@@ -43,7 +43,7 @@ spec:
           - |
             echo "<h1>App Name: $APP_NAME</h1>" > /usr/share/nginx/html/index.html
             echo "<h2>Environment: $APP_ENV</h2>" >> /usr/share/nginx/html/index.html
-            echo "<h3>Password: $DB_PASSWORD</h3>" >> /usr/share/nginx/html/index.html
+            echo "<h3>Password: ----------</h3>" >> /usr/share/nginx/html/index.html
             nginx -g 'daemon off;'
 
         volumeMounts:
